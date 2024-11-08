@@ -8,10 +8,13 @@
 </head>
 <body>
     <div class="container">
+        <!-- Image added above the form -->
+        <img src="https://i.ibb.co/k02PDPC/IMG-20241106-WA0068.jpg" alt="Channel Image" class="header-image">
+
         <h1>Create a Hugging Face Space</h1>
         <form id="create-space-form">
             <label for="spaceName">Space Name:</label>
-            <input type="text" id="spaceName" name="spaceName" placeholder="Enter space name" required>
+            <input type="text" id="spaceName" name="spaceName" placeholder="space name" required>
 
             <label for="spaceType">Space Type:</label>
             <select id="spaceType" name="spaceType">
@@ -21,8 +24,11 @@
             <button type="submit">Create Space</button>
             <p id="resultMessage"></p>
         </form>
+
+        <!-- Channel button added below form -->
+        <button onclick="window.open('https://your-channel-link.com', '_blank')" class="channel-button">Visit My Channel</button>
     </div>
 
     <script src="script.js"></script>
 </body>
-</html>
+    </html>
